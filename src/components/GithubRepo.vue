@@ -1,10 +1,10 @@
 <template>
-  <div class="main-container">
-    <div class="header-container">
+  <!-- <div class="profile-container"> -->
+    <!-- <div class="header-container"> -->
       <header class="header">
         <div class="header-body">
           <div class="repo-container">
-            <h2 class="title">Repositories</h2>
+            <!-- <h2 class="title">Repositories</h2> -->
           </div>
 
           <img
@@ -14,16 +14,26 @@
           <h3 class="name">Ifeoluwa Favour</h3>
 
           <a class="username" href="https://github.com/iiphe">@iiphe</a>
-          <a
-            class="follow-logo"
-            href="https://cdn1.iconfinder.com/data/icons/twitter-ui-glyph/48/Sed-25-512.png"
-          ></a>
+          <div>
+            <div class="profile-details"> 
+              <h3>16 Repositries</h3>
+              <h3>1 following</h3>
+              <h3>1 follower</h3>
+            </div>
+           
+          </div>
         </div>
       </header>
-    </div>
 
+      <section class="section">
+REPOSITORIES
+      </section>
     <div class="container">
+      
       <div class="table-container">
+        <div class="list-title">
+  <h2>Repositeries</h2>
+</div>
         <!-- <table class="table is-bordered is-striped is-hoverable is-fullwidth">
           <tbody> -->
 
@@ -46,7 +56,7 @@
 
             <div
               class="page-item"
-              :class="{ disabled: currentPage === pageCount }"
+              :class="{ disabled: currentPage === pageCount  }"
             >
               <button class="page-link" @click="currentPage++">Next</button>
             </div>
@@ -56,7 +66,7 @@
       <div v-if="loading">Loading...</div>
       <div v-if="error">{{ error }}</div>
     </div>
-  </div>
+ 
 </template>
 
 <script>
@@ -102,103 +112,5 @@ export default {
 </script>
 
 <style>
-body {
-  font: 15px/1.8 "Poppins", sans-serif !important;
-}
-.main-container {
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.header {
-  background-color: rgb(40, 40, 41);
-  width: 100%;
-  margin-bottom: 40px;
-}
-.header-body {
-  display: flex;
-}
-.username {
-  color: rgb(190, 203, 214);
-  font-size: large;
-  font-style: normal;
-  font-weight: 300;
-  margin-top: 100px;
-  margin-left: 10px;
-}
-.name {
-  color: rgb(190, 203, 214);
-  font-size: x-large;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  padding-left: 10px;
-}
-.title {
-  color: rgb(190, 203, 214);
-  padding: none;
-  margin-top: 100px;
-  margin-bottom: none;
-  margin-left: 30px;
-}
-.logo {
-  width: 60px;
-  height: 60px;
-  background-color: aliceblue;
-  border-radius: 40px;
-  margin-top: 30px;
-  margin-bottom: none;
-  display: flex;
-  margin-left: 30%;
-}
-.table-container {
-  text-align: center;
-  padding: 20px;
-  margin-left: 20%;
-  margin-right: 10%;
-  margin-top: 0%;
-  margin-bottom: 20%;
-  justify-content: center;
-}
-.repo-logo {
-  width: 30px;
-  margin-top: 25px;
-}
-.repo-container {
-  display: flex;
-  justify-content: center;
-  margin-left: 20px;
-}
-.repo-name {
-  width: 300px;
-  height: 50px;
-  border: 1px solid grey;
-  display: block;
-  border-radius: 10px;
-  margin-top: 20px;
-  margin-left: none;
-  margin-bottom: 30px;
-  border-style: outset;
-  transition: background-color 0.3s;
-}
-.repo-name:hover {
-  color: white;
-  background-color: black;
-}
-.pagination {
-  display: flex;
-  justify-content: right;
-}
-.pagination a {
-  color: black;
-  float: right;
-  /* padding: 8px 16px; */
-  text-decoration: none;
-  transition: background-color 0.3s;
-  border: 1px solid #ddd;
-  width: 0px;
-  height: px;
-}
-.pagination a:hover:not(.active) {
-  background-color: #ddd;
-}
+
 </style>

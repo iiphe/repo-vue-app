@@ -1,8 +1,9 @@
 <template>
   <main>
     <div>
+
       <nav class="nav-bar">
-        <router-link to="/">Back</router-link>
+        <router-link to="/"><img class="back-icon" src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-previous-vector-icon-png-image_4015266.jpg"></router-link>
       </nav>
     </div>
     <div class="details-container">
@@ -68,14 +69,11 @@ export default {
   margin-right: 60px;
   margin-top: 10%;
 }
-.nav-bar {
-  color: #ddd;
-  background-color: #ddd;
-  border: 1px solid grey;
-  width: 40px;
+ 
+.back-icon {
+  width: 20px;
 }
-.nav-bar:hover {
-  background-color: rgb(211, 206, 206);
-  color: white;
+.back-icon:hover {
+  background-color: rgb(105, 27, 105);
 }
 </style>
