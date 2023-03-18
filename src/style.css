@@ -76,6 +76,16 @@ body {
     display: flex;
     margin-left: 50%;
   }
+  .one {
+    margin-left: 10px;
+  }
+  .two {
+    margin-left: 10px;
+  }
+  .three {
+    margin-left: 10px;
+  }
+  
   
   .table-container {
     text-align: center;

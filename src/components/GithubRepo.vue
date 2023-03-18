@@ -16,9 +16,9 @@
           <a class="username" href="https://github.com/iiphe">@iiphe</a>
           <div>
             <div class="profile-details"> 
-              <h3>16 Repositries</h3>
-              <h3>1 following</h3>
-              <h3>1 follower</h3>
+              <h3 class="one">16 Repositries</h3>
+              <h3 class="two">1 following</h3>
+              <h3 class="three">1 follower</h3>
             </div>
            
           </div>
