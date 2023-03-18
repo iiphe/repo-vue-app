@@ -16,7 +16,7 @@
           <a class="username" href="https://github.com/iiphe">@iiphe</a>
           <div>
             <div class="profile-details"> 
-              <h3 class="one">16 Repositries</h3>
+              <h3 class="one">16 Repositories</h3>
               <h3 class="two">1 following</h3>
               <h3 class="three">1 follower</h3>
             </div>
@@ -32,7 +32,7 @@ REPOSITORIES
       
       <div class="table-container">
         <div class="list-title">
-  <h2>Repositeries</h2>
+  <h2>Repositories</h2>
 </div>
         <!-- <table class="table is-bordered is-striped is-hoverable is-fullwidth">
           <tbody> -->
